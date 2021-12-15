@@ -16,6 +16,8 @@
 		20AC2F2D2769B0ED00AB3A81 /* CatchTheKennyGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AC2F2C2769B0ED00AB3A81 /* CatchTheKennyGameTests.swift */; };
 		20AC2F372769B0ED00AB3A81 /* CatchTheKennyGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AC2F362769B0ED00AB3A81 /* CatchTheKennyGameUITests.swift */; };
 		20AC2F392769B0ED00AB3A81 /* CatchTheKennyGameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AC2F382769B0ED00AB3A81 /* CatchTheKennyGameUITestsLaunchTests.swift */; };
+		20AC2F492769D0C300AB3A81 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AC2F482769D0C300AB3A81 /* WelcomeViewController.swift */; };
+		20AC2F4B2769DA8C00AB3A81 /* EndViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AC2F4A2769DA8C00AB3A81 /* EndViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		20AC2F322769B0ED00AB3A81 /* CatchTheKennyGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatchTheKennyGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		20AC2F362769B0ED00AB3A81 /* CatchTheKennyGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatchTheKennyGameUITests.swift; sourceTree = "<group>"; };
 		20AC2F382769B0ED00AB3A81 /* CatchTheKennyGameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatchTheKennyGameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		20AC2F482769D0C300AB3A81 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		20AC2F4A2769DA8C00AB3A81 /* EndViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +103,9 @@
 		20AC2F142769B0EC00AB3A81 /* CatchTheKennyGame */ = {
 			isa = PBXGroup;
 			children = (
+				20AC2F452769CC1D00AB3A81 /* controller */,
 				20AC2F152769B0EC00AB3A81 /* AppDelegate.swift */,
 				20AC2F172769B0EC00AB3A81 /* SceneDelegate.swift */,
-				20AC2F192769B0EC00AB3A81 /* ViewController.swift */,
 				20AC2F1B2769B0EC00AB3A81 /* Main.storyboard */,
 				20AC2F1E2769B0ED00AB3A81 /* Assets.xcassets */,
 				20AC2F202769B0ED00AB3A81 /* LaunchScreen.storyboard */,
@@ -125,6 +129,16 @@
 				20AC2F382769B0ED00AB3A81 /* CatchTheKennyGameUITestsLaunchTests.swift */,
 			);
 			path = CatchTheKennyGameUITests;
+			sourceTree = "<group>";
+		};
+		20AC2F452769CC1D00AB3A81 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				20AC2F192769B0EC00AB3A81 /* ViewController.swift */,
+				20AC2F482769D0C300AB3A81 /* WelcomeViewController.swift */,
+				20AC2F4A2769DA8C00AB3A81 /* EndViewController.swift */,
+			);
+			path = controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +273,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				20AC2F1A2769B0EC00AB3A81 /* ViewController.swift in Sources */,
+				20AC2F4B2769DA8C00AB3A81 /* EndViewController.swift in Sources */,
+				20AC2F492769D0C300AB3A81 /* WelcomeViewController.swift in Sources */,
 				20AC2F162769B0EC00AB3A81 /* AppDelegate.swift in Sources */,
 				20AC2F182769B0EC00AB3A81 /* SceneDelegate.swift in Sources */,
 			);
